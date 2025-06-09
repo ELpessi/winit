@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Win IT - Proyecto por El_pessi</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #0f172a;
+      color: #f8fafc;
+    }
+    header {
+      background-color: #1e293b;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-size: 1.1em;
+      color: #94a3b8;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+    .os-card {
+      background: #1e293b;
+      border-radius: 10px;
+      padding: 20px;
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .os-card img {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+      border-radius: 10px;
+      margin-right: 20px;
+      background: white;
+      padding: 10px;
+    }
+    .os-info {
+      flex: 1;
+    }
+    .os-info h3 {
+      margin: 0;
+    }
+    .os-info p {
+      margin: 5px 0;
+      color: #cbd5e1;
+    }
+    .download-btn {
+      padding: 10px 20px;
+      background-color: #3b82f6;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    .download-btn:hover {
+      background-color: #2563eb;
+    }
+    @media (max-width: 600px) {
+      .os-card {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .os-card img {
+        margin-bottom: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Win IT</h1>
+    <p>Proyecto por El_pessi</p>
+  </header>
+
+  <div class="container">
+    <div class="os-card">
+      <img src="https://logowik.com/content/uploads/images/windows-116906.jpg" alt="Windows 11" />
+      <div class="os-info">
+        <h3>Windows 11 Optimizado</h3>
+        <p>Una versión de Windows 11 ligera y veloz, personalizada por El_pessi para máximo rendimiento.</p>
+        <a href="https://www.mediafire.com/file/fv1nogqx9ev74x6/winitOS.iso/file" class="download-btn" target="_blank">Descargar</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
